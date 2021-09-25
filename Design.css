@@ -1,0 +1,30 @@
+p.p1{
+    position: absolute; 
+    top: 8%; 
+    right: 50%; 
+    transform: translate(50%,-50%);
+    font-size: 21px;
+}
+
+p.p2{
+    position: absolute;
+    top: 85%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    font-size: 18px;
+}
+
+.image-blurred-edge{
+    position: absolute;
+    top: 48%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+body{
+    background-image: url(https://image.freepik.com/free-vector/beige-geometric-background_1378-203.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
