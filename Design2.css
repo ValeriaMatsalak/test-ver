@@ -101,11 +101,11 @@ header{
     width: 100%;
 }
 
-header-menu__link:hover li a{
+.header-menu ul:hover li a{
     filter: blur(5px);
 }
 
-header-menu__link:hover li a:hover{
+.header-menu ul:hover li a:hover{
     display: inline-block;
     font-size: 17px;
     filter: blur(0px);
