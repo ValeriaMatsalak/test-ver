@@ -65,7 +65,9 @@ nav ul:hover li a:hover{
 
 nav li:hover .dropmenu{
     display: block;
+    filter: blur(0px);
 }
+
 
 .dropmenu {
     display: none;
@@ -81,11 +83,14 @@ nav li:hover .dropmenu{
     opacity: 1;
     text-decoration: none;
     text-align: center;
+    filter: none;
 }
 
 .dropmenu li{
     display: block;
     margin-bottom: 15px;
+    filter: blur(none);
+    border: 1;
 }
 
 aside{
